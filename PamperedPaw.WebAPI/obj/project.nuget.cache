@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zc4wRBicSaI=",
+  "dgSpecHash": "Q+iG7hDqg0E=",
   "success": true,
-  "projectFilePath": "C:\\devops\\repos\\PamperedPaw\\PamperedPaw\\PamperedPaw.WebAPI\\PamperedPaw.WebAPI.csproj",
+  "projectFilePath": "C:\\devops\\repos\\PamperedPaw\\PamperedPaw.WebAPI\\PamperedPaw.WebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\james\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\james\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

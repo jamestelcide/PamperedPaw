@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\devops\\repos\\PamperedPaw\\PamperedPaw\\PamperedPaw.WebAPI\\PamperedPaw.WebAPI.csproj": {}
+    "C:\\devops\\repos\\PamperedPaw\\PamperedPaw.WebAPI\\PamperedPaw.WebAPI.csproj": {}
   },
   "projects": {
-    "C:\\devops\\repos\\PamperedPaw\\PamperedPaw\\PamperedPaw.WebAPI\\PamperedPaw.WebAPI.csproj": {
+    "C:\\devops\\repos\\PamperedPaw\\PamperedPaw.WebAPI\\PamperedPaw.WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\devops\\repos\\PamperedPaw\\PamperedPaw\\PamperedPaw.WebAPI\\PamperedPaw.WebAPI.csproj",
+        "projectUniqueName": "C:\\devops\\repos\\PamperedPaw\\PamperedPaw.WebAPI\\PamperedPaw.WebAPI.csproj",
         "projectName": "PamperedPaw.WebAPI",
-        "projectPath": "C:\\devops\\repos\\PamperedPaw\\PamperedPaw\\PamperedPaw.WebAPI\\PamperedPaw.WebAPI.csproj",
+        "projectPath": "C:\\devops\\repos\\PamperedPaw\\PamperedPaw.WebAPI\\PamperedPaw.WebAPI.csproj",
         "packagesPath": "C:\\Users\\james\\.nuget\\packages\\",
-        "outputPath": "C:\\devops\\repos\\PamperedPaw\\PamperedPaw\\PamperedPaw.WebAPI\\obj\\",
+        "outputPath": "C:\\devops\\repos\\PamperedPaw\\PamperedPaw.WebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\james\\AppData\\Roaming\\NuGet\\NuGet.Config",

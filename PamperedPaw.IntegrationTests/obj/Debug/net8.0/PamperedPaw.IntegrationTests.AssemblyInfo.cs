@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PamperedPaw.IntegrationTests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2f0689fc8e8f17fbacfa2d5a83ee77e8b6a1ea9b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+523d9803a625909bf8e77b7faaab4ed10814634f")]
 [assembly: System.Reflection.AssemblyProductAttribute("PamperedPaw.IntegrationTests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PamperedPaw.IntegrationTests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

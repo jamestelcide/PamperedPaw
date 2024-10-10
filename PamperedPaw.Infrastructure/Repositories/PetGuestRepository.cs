@@ -1,5 +1,8 @@
-﻿using PamperedPaw.Core.Domain.Entities;
+﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Logging;
+using PamperedPaw.Core.Domain.Entities;
 using PamperedPaw.Core.Domain.RepositoryContracts;
+using PamperedPaw.Infrastructure.DbContext;
 using System.Linq.Expressions;
 
 namespace PamperedPaw.Infrastructure.Repositories
@@ -9,34 +12,76 @@ namespace PamperedPaw.Infrastructure.Repositories
         private readonly ApplicationDbContext _db;
         private readonly ILogger<PetGuestRepository> _logger;
 
-        public Task<PetGuest> AddPetAsync(PetGuest petGuest)
+        public PetGuestRepository(ApplicationDbContext db, ILogger<PetGuestRepository> logger)
         {
-            throw new NotImplementedException();
+            _db = db;
+            _logger = logger;
         }
 
-        public Task<PetGuest> DeletePetByIDAsync(string petID)
+        public async Task<PetGuest> AddPetAsync(PetGuest petGuest)
         {
-            throw new NotImplementedException();
+            _logger.LogInformation("AddPetAsync of PetGuestRepository");
+
+            _db.PetGuests.Add(petGuest);
+            await _db.SaveChangesAsync();
+
+            return petGuest;
         }
 
-        public Task<List<PetGuest>> GetAllPetsAsync()
+        public async Task<List<PetGuest>> GetAllPetsAsync()
         {
-            throw new NotImplementedException();
+            _logger.LogInformation("GetAllPetsAsync of PetGuestRepository");
+
+            return await _db.PetGuests.ToListAsync();
         }
 
-        public Task<PetGuest> GetFilteredPetAsync(Expression<Func<PetGuest, bool>> predicate)
+        public async Task<PetGuest?> GetPetByIDAsync(string petID)
         {
-            throw new NotImplementedException();
+            _logger.LogInformation("GetPetByIDAsync of PetGuestRepository");
+
+            return await _db.PetGuests.FirstOrDefaultAsync(temp => temp.PetID == petID);
         }
 
-        public Task<PetGuest?> GetPetByIDAsync(string petID)
+        public async Task<List<PetGuest>> GetFilteredPetAsync(Expression<Func<PetGuest, bool>> predicate)
         {
-            throw new NotImplementedException();
+            _logger.LogInformation("GetFilteredPetAsync of PetGuestRepository");
+
+            return await _db.PetGuests.Where(predicate).ToListAsync();
         }
 
-        public Task<PetGuest> UpdatePetAsync(PetGuest petGuest)
+        public async Task<PetGuest> UpdatePetAsync(PetGuest petGuest)
         {
-            throw new NotImplementedException();
+            _logger.LogInformation("UpdatePetAsync of PetGuestRepository");
+
+            PetGuest? matchingPet = await _db.PetGuests
+                .FirstOrDefaultAsync(temp => temp.PetID == petGuest.PetID);
+
+            if (matchingPet == null) { return petGuest; }
+
+            matchingPet.PetName = petGuest.PetName;
+            matchingPet.PetSpecies = petGuest.PetSpecies;
+            matchingPet.PetBreed = petGuest.PetBreed;
+            matchingPet.OwnerName = petGuest.OwnerName;
+            matchingPet.OwnerNumber = petGuest.OwnerNumber;
+            matchingPet.OwnerAddress = petGuest.OwnerAddress;
+            matchingPet.SpaActivity = petGuest.SpaActivity;
+            matchingPet.AdditionalNotes = petGuest.AdditionalNotes;
+            matchingPet.AppointmentStartTime = petGuest.AppointmentStartTime;
+            matchingPet.PetPickupTime = petGuest.PetPickupTime;
+
+            await _db.SaveChangesAsync();
+
+            return matchingPet;
+        }
+
+        public async Task<bool> DeletePetByIDAsync(string petID)
+        {
+            _logger.LogInformation("DeletePetByIDAsync of PetGuestRepository");
+
+            _db.PetGuests.RemoveRange(_db.PetGuests.Where(temp => temp.PetID == petID));
+            int rowsDeleted = await _db.SaveChangesAsync();
+
+            return rowsDeleted > 0;
         }
     }
 }

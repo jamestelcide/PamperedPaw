@@ -33,7 +33,7 @@ namespace PamperedPaw.Core.Domain.RepositoryContracts
         /// </summary>
         /// <param name="predicate">LINQ expression to check</param>
         /// <returns>All matching PetGuest objects with a given condition</returns>
-        Task<PetGuest> GetFilteredPetAsync(Expression<Func<PetGuest, bool>> predicate);
+        Task<List<PetGuest>> GetFilteredPetAsync(Expression<Func<PetGuest, bool>> predicate);
 
         /// <summary>
         /// Updates a PetGuest object based on the given PetID
@@ -47,6 +47,6 @@ namespace PamperedPaw.Core.Domain.RepositoryContracts
         /// </summary>
         /// <param name="petID">PetID (string) to search</param>
         /// <returns>Returns true if delete is successful, otherwise returns false</returns>
-        Task<PetGuest> DeletePetByIDAsync(string petID);
+        Task<bool> DeletePetByIDAsync(string petID);
     }
 }

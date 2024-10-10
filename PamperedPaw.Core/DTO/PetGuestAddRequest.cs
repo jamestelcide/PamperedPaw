@@ -1,15 +1,13 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using PamperedPaw.Core.Domain.Entities;
+using System.ComponentModel.DataAnnotations;
 
-namespace PamperedPaw.Core.Domain.Entities
+namespace PamperedPaw.Core.DTO
 {
     /// <summary>
-    /// PetGuest domain model class
+    /// Dto for inserting a new PetGuest
     /// </summary>
-    public class PetGuest
+    public class PetGuestAddRequest
     {
-        [Key]
-        public string PetID { get; set; } = string.Empty;
-
         [Required(ErrorMessage = "Pet name can not be blank")]
         public string PetName { get; set; } = string.Empty;
 
@@ -38,5 +36,26 @@ namespace PamperedPaw.Core.Domain.Entities
 
         [Required(ErrorMessage = "Pet pick up time can not be blank")]
         public DateTime PetPickupTime { get; set; }
+
+        /// <summary>
+        /// Converts the current object of PetGuestAddRequest into a new object of PetGuest type
+        /// </summary>
+        /// <returns>A new object of PetGuest type</returns>
+        public PetGuest ToPetGuest()
+        {
+            return new PetGuest()
+            {
+                PetName = PetName,
+                PetSpecies = PetSpecies,
+                PetBreed = PetBreed,
+                OwnerName = OwnerName,
+                OwnerNumber = OwnerNumber,
+                OwnerAddress = OwnerAddress,
+                SpaActivity = SpaActivity,
+                AdditionalNotes = AdditionalNotes,
+                AppointmentStartTime = AppointmentStartTime,
+                PetPickupTime = PetPickupTime
+            };
+        }
     }
 }
