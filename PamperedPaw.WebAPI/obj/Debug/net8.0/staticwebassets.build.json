@@ -1,8 +1,8 @@
 {
   "Version": 1,
-  "Hash": "WRozrxdUkN6wdN4gebIK2Zm8+yBKbnl+Y77GGLSHhjA=",
-  "Source": "PamperedPaw",
-  "BasePath": "_content/PamperedPaw",
+  "Hash": "ksflviR5mXSI60dqw1qJxT5dCpcoceiaA5Zi+P1JAQs=",
+  "Source": "PamperedPaw.WebAPI",
+  "BasePath": "_content/PamperedPaw.WebAPI",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],

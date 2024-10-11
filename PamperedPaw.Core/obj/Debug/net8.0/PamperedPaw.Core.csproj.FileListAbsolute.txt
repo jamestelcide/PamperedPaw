@@ -1,0 +1,13 @@
+C:\devops\repos\PamperedPaw\PamperedPaw.Core\bin\Debug\net8.0\PamperedPaw.Core.deps.json
+C:\devops\repos\PamperedPaw\PamperedPaw.Core\bin\Debug\net8.0\PamperedPaw.Core.dll
+C:\devops\repos\PamperedPaw\PamperedPaw.Core\bin\Debug\net8.0\PamperedPaw.Core.pdb
+C:\devops\repos\PamperedPaw\PamperedPaw.Core\obj\Debug\net8.0\PamperedPaw.Core.csproj.AssemblyReference.cache
+C:\devops\repos\PamperedPaw\PamperedPaw.Core\obj\Debug\net8.0\PamperedPaw.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\devops\repos\PamperedPaw\PamperedPaw.Core\obj\Debug\net8.0\PamperedPaw.Core.AssemblyInfoInputs.cache
+C:\devops\repos\PamperedPaw\PamperedPaw.Core\obj\Debug\net8.0\PamperedPaw.Core.AssemblyInfo.cs
+C:\devops\repos\PamperedPaw\PamperedPaw.Core\obj\Debug\net8.0\PamperedPaw.Core.csproj.CoreCompileInputs.cache
+C:\devops\repos\PamperedPaw\PamperedPaw.Core\obj\Debug\net8.0\PamperedPaw.Core.sourcelink.json
+C:\devops\repos\PamperedPaw\PamperedPaw.Core\obj\Debug\net8.0\PamperedPaw.Core.dll
+C:\devops\repos\PamperedPaw\PamperedPaw.Core\obj\Debug\net8.0\refint\PamperedPaw.Core.dll
+C:\devops\repos\PamperedPaw\PamperedPaw.Core\obj\Debug\net8.0\PamperedPaw.Core.pdb
+C:\devops\repos\PamperedPaw\PamperedPaw.Core\obj\Debug\net8.0\ref\PamperedPaw.Core.dll

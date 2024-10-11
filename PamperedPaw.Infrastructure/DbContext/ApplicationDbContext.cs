@@ -9,8 +9,6 @@ namespace PamperedPaw.Infrastructure.DbContext
     {
         public ApplicationDbContext(DbContextOptions options) : base(options) { }
 
-        public ApplicationDbContext() { }
-
         public virtual DbSet<PetGuest> PetGuests { get; set; }
 
         protected override void OnModelCreating(ModelBuilder builder)

@@ -1,0 +1,16 @@
+C:\devops\repos\PamperedPaw\PamperedPaw.Infrastructure\bin\Debug\net8.0\PamperedPaw.Infrastructure.deps.json
+C:\devops\repos\PamperedPaw\PamperedPaw.Infrastructure\bin\Debug\net8.0\PamperedPaw.Infrastructure.dll
+C:\devops\repos\PamperedPaw\PamperedPaw.Infrastructure\bin\Debug\net8.0\PamperedPaw.Infrastructure.pdb
+C:\devops\repos\PamperedPaw\PamperedPaw.Infrastructure\bin\Debug\net8.0\PamperedPaw.Core.dll
+C:\devops\repos\PamperedPaw\PamperedPaw.Infrastructure\bin\Debug\net8.0\PamperedPaw.Core.pdb
+C:\devops\repos\PamperedPaw\PamperedPaw.Infrastructure\obj\Debug\net8.0\PamperedPaw.Infrastructure.csproj.AssemblyReference.cache
+C:\devops\repos\PamperedPaw\PamperedPaw.Infrastructure\obj\Debug\net8.0\PamperedPaw.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\devops\repos\PamperedPaw\PamperedPaw.Infrastructure\obj\Debug\net8.0\PamperedPaw.Infrastructure.AssemblyInfoInputs.cache
+C:\devops\repos\PamperedPaw\PamperedPaw.Infrastructure\obj\Debug\net8.0\PamperedPaw.Infrastructure.AssemblyInfo.cs
+C:\devops\repos\PamperedPaw\PamperedPaw.Infrastructure\obj\Debug\net8.0\PamperedPaw.Infrastructure.csproj.CoreCompileInputs.cache
+C:\devops\repos\PamperedPaw\PamperedPaw.Infrastructure\obj\Debug\net8.0\PamperedPaw.Infrastructure.sourcelink.json
+C:\devops\repos\PamperedPaw\PamperedPaw.Infrastructure\obj\Debug\net8.0\Pampered.9620F203.Up2Date
+C:\devops\repos\PamperedPaw\PamperedPaw.Infrastructure\obj\Debug\net8.0\PamperedPaw.Infrastructure.dll
+C:\devops\repos\PamperedPaw\PamperedPaw.Infrastructure\obj\Debug\net8.0\refint\PamperedPaw.Infrastructure.dll
+C:\devops\repos\PamperedPaw\PamperedPaw.Infrastructure\obj\Debug\net8.0\PamperedPaw.Infrastructure.pdb
+C:\devops\repos\PamperedPaw\PamperedPaw.Infrastructure\obj\Debug\net8.0\ref\PamperedPaw.Infrastructure.dll
