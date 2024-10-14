@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PamperedPaw.WebAPI</name>
+    </assembly>
+    <members>
+        <member name="M:PamperedPaw.WebAPI.Controllers.PetGuestController.GetPets">
+            <summary>
+            Gets a list of PetGuests from table
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

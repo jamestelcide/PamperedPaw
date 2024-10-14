@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PamperedPaw.Core")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4de9f08216cad55900facf3ff9e639953b67843d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5cb53b9c2e98bc45f6a9b6c3a63a7cbcde194771")]
 [assembly: System.Reflection.AssemblyProductAttribute("PamperedPaw.Core")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PamperedPaw.Core")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

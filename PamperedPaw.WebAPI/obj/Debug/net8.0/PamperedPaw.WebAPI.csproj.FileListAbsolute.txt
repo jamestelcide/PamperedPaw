@@ -167,3 +167,4 @@ C:\devops\repos\PamperedPaw\PamperedPaw.WebAPI\bin\Debug\net8.0\Serilog.Sinks.MS
 C:\devops\repos\PamperedPaw\PamperedPaw.WebAPI\bin\Debug\net8.0\Serilog.Sinks.Seq.dll
 C:\devops\repos\PamperedPaw\PamperedPaw.WebAPI\bin\Debug\net8.0\System.ClientModel.dll
 C:\devops\repos\PamperedPaw\PamperedPaw.WebAPI\bin\Debug\net8.0\System.Formats.Asn1.dll
+C:\devops\repos\PamperedPaw\PamperedPaw.WebAPI\bin\Debug\net8.0\api.xml
